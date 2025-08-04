@@ -15,6 +15,10 @@
 * ZkGovOpsGovernor
   * Governor: [0xEEEa739a8b6fB1b8f703E23C9Be03CeeA643b160](https://explorer.zksync.io/address/0xEEEa739a8b6fB1b8f703E23C9Be03CeeA643b160)
   * Timelock: [0xC9E442574958f96C026DeF9a50C3236cab17428a](https://explorer.zksync.io/address/0xC9E442574958f96C026DeF9a50C3236cab17428a)
+* Capped Minter Deployment
+  * [ZkCappedMinterV2.sol](https://github.com/zksync-association/zk-governance/blob/master/l2-contracts/src/ZkCappedMinterV2.sol)
+  * [ZkCappedMinterV2Factory.sol](https://github.com/zksync-association/zk-governance/blob/master/l2-contracts/src/ZkCappedMinterV2Factory.sol)
+  * ZkCappedMinterV2Factory: [0x0400E6bc22B68686Fb197E91f66E199C6b0DDD6a](https://explorer.zksync.io/address/0x0400E6bc22B68686Fb197E91f66E199C6b0DDD6a#contract#contract-info)
 * Active ZK Capped Minters
   * [0x66fd4fc8fa52c9bec2aba368047a0b27e24ecfe4](https://explorer.zksync.io/address/0x66fd4fc8fa52c9bec2aba368047a0b27e24ecfe4) (Initial Merkle Distributor for ZK Airdrop)
   * [0xb294F411cB52c7C6B6c0B0b61DBDf398a8b0725d](https://explorer.zksync.io/address/0xb294F411cB52c7C6B6c0B0b61DBDf398a8b0725d) (Second Distributor for ZK Airdrop)
@@ -75,6 +79,8 @@ L1 Contracts
 * ZkGovOpsGovernor
   * Governor: [0x56f6379F945e95558069acb3E945ee3480025605](https://sepolia.explorer.zksync.io/address/0x56f6379F945e95558069acb3E945ee3480025605)
   * Timelock: [0x0569a17602Ef32B8aa2fdeC44DCD3F7109f96f91](https://sepolia.explorer.zksync.io/address/0x0569a17602Ef32B8aa2fdeC44DCD3F7109f96f91)
+* Capped Minter Deployment
+  * ZkCappedMinterV2Factory: [0x329CE320a0Ef03F8c0E01195604b5ef7D3Fb150E](https://sepolia.explorer.zksync.io/address/0x329CE320a0Ef03F8c0E01195604b5ef7D3Fb150E#contract#write)
 
 ### L1 Contracts
 
