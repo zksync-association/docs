@@ -8,7 +8,7 @@ In these docs you can find information about ZK Nation, the ZK token, ZKsync Gov
 
 This ecosystem overview highlights the key players within ZK Nation and illustrates how they interact and collaborate to support one another.
 
-Discover the governance bodies, supporting entities, and the governance procedures on the [ZKsync Governance Procedures: Overview](https://docs.zknation.io/zksync-governance/zksync-governance-procedures-overview) page
+Discover the governance bodies, supporting entities, and the governance procedures on the [ZKsync Governance Procedures: Overview](https://docs.zknation.io/zksync-governance/zksync-governance-procedures-overview) page.
 
 <figure><img src=".gitbook/assets/FINAL Ecosystem Overview (1).jpg" alt=""><figcaption></figcaption></figure>
 
