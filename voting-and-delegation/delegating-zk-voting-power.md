@@ -20,11 +20,21 @@ Through delegation, it is possible for someone who does not own any ZK tokens to
 
 If you are are interested in participating as a Delegate, visit [Getting Started as a ZKsync Delegate](https://forum.zknation.io/t/getting-started-as-a-zksync-delegate/104) for more information.
 
-### How to Delegate
+### Delegating through Governance Portals
 
 * Visit [delegate.zknation.io](http://delegate.zknation.io/)
 * Connect your wallet
 * Follow the prompts to select a Delegate, or self-delegate
 * Delegate
+
+### Delegating through Safe UI
+
+* Login to your [Safe wallet](https://app.safe.global/welcome/accounts) and select "New transaction" in the top left corner.
+* Select "Transaction Builder"&#x20;
+* Enter the ZK token contract. All governance contracts can be found on the [ZKsync Governance Cotnract Addresses](../zk-nation/zksync-governance-contract-addresses.md) page. Once the address is entered, the ABI should load automatically.&#x20;
+* Scroll down the page and change the _Contract Method Selector_ input. Change it to `delegate`
+* Enter the address of the Delegate you would like to delegate to (yourself or another Delegate)
+* Select “Add new transaction”
+* Select “Create branch” in top right and follow the instructions in the Safe UI to review and execute the transaction
 
 > For more details on how to delegate your voting power on Tally, [see this guide.](https://docs.tally.xyz/knowledge-base/delegations-on-tally/delegating-voting-power)
