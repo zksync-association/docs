@@ -22,10 +22,13 @@ If you are are interested in participating as a Delegate, visit [Getting Started
 
 ### Delegating through Governance Portals
 
-* Visit [delegate.zknation.io](http://delegate.zknation.io/)
-* Connect your wallet
+* Visit [vote.zknation.io](https://delegate.zknation.io/dao)
+* Connect your wallet & sign in if prompted
+* Check you are on the ZKsync Era Mainnet network
+* Select the "Delegate" button on the right-hand side of the screen
 * Follow the prompts to select a Delegate, or self-delegate
-* Delegate
+* If delegating to yourself, sign the transaction to execute self-delegation
+* If delegation to another address, enter the address and sign the transaction to execut delegation
 
 ### Delegating through Safe UI
 
