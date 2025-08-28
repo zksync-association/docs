@@ -26,7 +26,7 @@ If you are are interested in participating as a Delegate, visit [Getting Started
 * Connect your wallet & sign in if prompted
 * Check you are on the ZKsync Era Mainnet network
 * Select the "Delegate" button on the right-hand side of the screen
-* Follow the prompts to select a Delegate, or self-delegate
+* Select who you want to delegate to: "Myself" or "Someone else"
 * If delegating to yourself, sign the transaction to execute self-delegation
 * If delegation to another address, enter the address and sign the transaction to execut delegation
 
