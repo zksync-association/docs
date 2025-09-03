@@ -49,14 +49,14 @@ cd Documents/Dev/
 
 ```
 
-1. Clone the repo where governance contracts are managed
+2. Clone the repo where governance contracts are managed
 
 ```bash
 git clone <https://github.com/zksync-association/zk-governance.git>
 
 ```
 
-1. (Optional) Install Hardhat ([see npm docs](https://docs.npmjs.com/cli/v8/configuring-npm/install))
+3. (Optional) Install Hardhat ([see npm docs](https://docs.npmjs.com/cli/v8/configuring-npm/install))
 
 ```css
 npm install --save-dev hardhat
@@ -64,14 +64,14 @@ npm install --save-dev typescript
 
 ```
 
-1. Change directory to L2 governance contract working directory
+4. Change directory to L2 governance contract working directory
 
 ```bash
 cd l2-contracts/
 
 ```
 
-1. Set default network
+5. Set default network
    1. // Change default network to zkSyncEra
    2. // (IF TESTNET) Change default network to zkSyncTestnet
 
@@ -80,14 +80,14 @@ nano hardhat.config.ts
 
 ```
 
-1. Compile contracts
+6. Compile contracts
 
 ```python
 npx hardhat compile
 
 ```
 
-1. Verify Contract
+7. Verify Contract
    1. npx hardhat verify \[contract address] \[token] \[admin] \[cap] \[starttime] \[expirationtime]
    2. Change your parameters as needed
 
@@ -161,27 +161,29 @@ If the query returns true, the child capped minter has the minter role on the pa
 
 #### Minting ZK from Era Block Explorer
 
-* Enter the capped minter address you want to mint from in the [Era Block Explorer](https://explorer.zksync.io/)
-* Go to “Contract”, then “Write”
-* Connect the wallet that has the minter role
-* Toggle down the “mint” parameter
-* Enter address of where you want the ZK minted to in “\_to (address)”:
-*   Enter the amount ZK in “amount (unit256)
+1. Enter the capped minter address you want to mint from in the [Era Block Explorer](https://explorer.zksync.io/)
+2. Go to “Contract”, then “Write”
+3. Connect the wallet that has the minter role
+4. Toggle down the “mint” parameter
+5. Enter address of where you want the ZK minted to in “\_to (address)”:
+6. Enter the amount ZK in “amount (unit256)
 
-    > ℹ️ We recommend doing a test mint for a small portion of the full cap to the target address before minting the full cap.
-* Select “write”
-* Verify that the minted ZK was received by target address
+> ℹ️ We recommend doing a test mint for a small portion of the full cap to the target address before minting the full cap.
+
+7. Select “write”
+8. Verify that the minted ZK was received by target address
 
 #### Mint Tokens through Safe UI
 
-* Login to the SC Ops multisig [Safe wallet](https://app.safe.global/welcome/accounts) and select "New transaction" in the top left corner
-* Select “Transaction Builder”
-* Enter the capped minter contract address: (the ABI should automatically load)
-* Scroll down to “Contract Method Selector” and select “mint”
-* Enter address of where you want the ZK minted to in “\_to (address)”:
-*   Enter the amount ZK in “amount (unit256)
+1. Login to the SC Ops multisig [Safe wallet](https://app.safe.global/welcome/accounts) and select "New transaction" in the top left corner
+2. Select “Transaction Builder”
+3. Enter the capped minter contract address: (the ABI should automatically load)
+4. Scroll down to “Contract Method Selector” and select “mint”
+5. &#x20;Enter address of where you want the ZK minted to in “\_to (address)”:
+6. Enter the amount ZK in “amount (unit256)
 
-    > ℹ️ We recommend doing a test mint for a small portion of the full cap to the target address before minting the full cap.
-* Select “Add new transaction”
-* Select “Create branch” in top right and follow the instructions in the Safe UI to review and execute the transaction
-* Verify that the minted ZK was received by target address
+> ℹ️ We recommend doing a test mint for a small portion of the full cap to the target address before minting the full cap.
+
+7. Select “Add new transaction”
+8. Select “Create branch” in top right and follow the instructions in the Safe UI to review and execute the transaction
+9. Verify that the minted ZK was received by target address
