@@ -30,6 +30,7 @@
   * [ZIP FAQ](zksync-governance-proposals/zksync-improvement-proposals-zips/zip-faq.md)
 * [Token Program Proposals (TPPs)](zksync-governance-proposals/token-program-proposals-tpps/README.md)
   * [TPP FAQ](zksync-governance-proposals/token-program-proposals-tpps/tpp-faq.md)
+  * [Capped Minters 101](zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101.md)
 * [Governance Advisory Proposals (GAPs)](zksync-governance-proposals/governance-advisory-proposals-gaps/README.md)
   * [GAP FAQ](zksync-governance-proposals/governance-advisory-proposals-gaps/gap-faq.md)
 
