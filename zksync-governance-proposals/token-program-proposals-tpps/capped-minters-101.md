@@ -4,7 +4,7 @@
 
 Capped minters are unique smart contracts of the ZKsync ecosystem that allow for “just-in-time minting.” Each capped minter is assigned a maximum number of tokens, known as the “cap,” which is allowed to be minted. Those with the minter role of a capped minter can mint tokens from that supply whenever they choose to, up to the maximum specified. [Learn more about how Capped Minters](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps#what-is-a-capped-minter) are used in ZKsync token governance.
 
-### Capped Minter V2
+### ZK Capped Minter V2
 
 The current version of the capped minter contract is the [ZKCappedMinterV2](https://github.com/zksync-association/zk-governance/blob/master/l2-contracts/src/ZkCappedMinterV2.sol). The ZK Capped Minter V2 expands the limited functionality of V1, where the creator could assign a token, admin, and cap.
 
