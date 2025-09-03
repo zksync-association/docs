@@ -8,7 +8,7 @@ Token Program Proposals (TPPs) include all proposals submitted through the ZKsyn
 
 ### What is a capped minter?
 
-[Capped minters](https://docs.zknation.io/zk-token/zk-token#capped-minters) are unique smart contracts of the ZKsync ecosystem that allow for “just-in-time minting.” Each capped minter is assigned a maximum number of tokens, known as the “cap,” which is allowed to be minted. Those with the minter role of a capped minter can mint tokens from that supply whenever they choose to, up to the maximum specified.&#x20;
+[Capped minters](capped-minters-101.md) are unique smart contracts of the ZKsync ecosystem that allow for “just-in-time minting.” Each capped minter is assigned a maximum number of tokens, known as the “cap,” which is allowed to be minted. Those with the minter role of a capped minter can mint tokens from that supply whenever they choose to, up to the maximum specified.&#x20;
 
 How is this relevant for governance? Unlike other token launches, not all ZK tokens were minted upon the launch of the ZK token. In other words, there is no token treasury. Instead, the Token Assembly grants minting rights to administrators of Token Programs. The Token Assembly has access to 29.3% of the total token supply, as defined during the token launch. This design removes the risks associated with a large treasury and instead helps shift the agency of token management to the final token recipient.
 
