@@ -51,3 +51,4 @@
 
 * [Risk Factors & Disclaimers](legal/risk-factors-and-disclaimers.md)
 * [ZKsync Association Membership](legal/zksync-association-membership.md)
+* [ZKsync Governance Program Systems (ZKGPS)](legal/zksync-governance-program-systems-zkgps.md)
