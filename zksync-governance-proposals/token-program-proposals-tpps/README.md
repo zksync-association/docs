@@ -42,7 +42,11 @@ A ZK Token Program Proposal should include all the necessary information for ZKs
 * PLAN: Outline a long-term project plan (for example 6-months to 2+ years) with outcomes, milestones, and deliverables aligned to the ZKsync Governance North Star, endorsed ZKsync Strategic Priorities, and the ZK Credo.
   * Specify KPIs supporting those outcomes and the overarching vision of the Token Program. Include how those KPIs will be measured (e.g. onchain, elsewhere).
   * Explain the permissionless pathways available for public participation. For example, address questions like: how is the program composable?, what standards does it follow?, will there be a public communication channel?, and what projects are available for contributors?
-* ACCOUNTABILITY FRAMEWORK: Specify what methods will hold the program, mechanic, operations, and participants accountable for their commitments. For example, this can include items such as a Steering Committee, Token Streaming Terms, staking, or contracting with ZKGPS (l[earn more here](https://forum.zknation.io/t/zkgps-advancing-accountability-in-proposal-execution/480)).
+* ACCOUNTABILITY FRAMEWORK: Specify what methods will hold the program, mechanic, operations, and participants accountable for their commitments. For example, this can include items such as:
+  * **Public Reporting:** Publishing of consistant reports for transparency of progress and updates
+  * **Onchain Token Allocation Tracking:** Token allocations are publicly available by default, but some programs may include additional analytics tracking.
+  * **Token Assembly oversight:** The Token Assembly may cancel the program at any point via a Token Program Proposal. See [Token Program Cancellation](./) below.
+  * **Legal Contracts:** All Program Administrators (multisig signers), program service providers and directly listed recipients of ZK tokens in any given proposal will be required to contract with ZKGPS and complete KYY/KYB. [Learn more about ZKGPS here](../../legal/zksync-governance-program-systems-zkgps.md).&#x20;
 
 > ✍️ TEMPLATE: Proposal authors are encouraged to follow the [standard proposal template for Token Program Proposals](https://github.com/zksync-association/governance-resources/blob/main/proposal-templates/02_tpp_template_token_governor.md).\
 > \
