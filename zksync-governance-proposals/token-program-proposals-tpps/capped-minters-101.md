@@ -22,6 +22,8 @@ The current version of the capped minter contract is the [ZKCappedMinterV2](http
 
 You can deploy a capped minter through a the [ZKCappedMinterV2 Factory](https://explorer.zksync.io/address/0x0400E6bc22B68686Fb197E91f66E199C6b0DDD6a#contract#contract-info). You can find the source code for the V2 Factory [here](https://github.com/zksync-association/zk-governance/blob/master/l2-contracts/src/ZkCappedMinterV2Factory.sol). The V2 Factory was created to make capped minter deployment more accessible.
 
+> ℹ️ Testnet capped minter deployment can be done through the [Testnet\_ZkCappedMinterV2Factory](https://sepolia.explorer.zksync.io/address/0x329CE320a0Ef03F8c0E01195604b5ef7D3Fb150E#contract#write)
+
 1. Go to the [CappedMinter V2 Factory](https://explorer.zksync.io/address/0x0400E6bc22B68686Fb197E91f66E199C6b0DDD6a#contract#contract-info)
 2. Select “Contract” and “Write”
 
