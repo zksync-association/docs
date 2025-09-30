@@ -4,7 +4,7 @@
 Certain jurisdictions are blocked from the ZK airdrop, these include: Cuba; Iran; North Korea; Russia; Syria; specific regions of Ukraine: Crimea, Donetsk and Luhansk. These geographical regions must be blocked to comply with the sanctions regulations set forth by the U.S. Department of Treasury’s Office of Foreign Assets Control (“OFAC”), the United Nations Security Council (“UNSC”), the European External Action Service (“EEAS”), and His Majesty’s Treasury (“HMT), which mandate the prohibition of providing product or services accessible from domains to persons from specific countries and territories. Additionally, persons residing in the United States will also be prohibited from participating in the airdrop.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Image 6 (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame(4).png" alt=""><figcaption></figcaption></figure>
 
 | Category                                                                                                     | Data                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

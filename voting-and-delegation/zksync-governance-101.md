@@ -30,13 +30,13 @@ All proposals are managed by ZKsync governance smart contracts that operate dire
 
 **3️⃣ Governance Bodies**
 
-The ZKsync Governance system is governed by three governance bodies. Read more about the three governance bodies [here](https://docs.zknation.io/zksync-governance/zksync-governance-procedures-overview#id-4.-governance-bodies).
+The ZKsync Governance system is governed by three governance bodies: The Token Assembly, ZKsync Security Council, and ZKsync Guardians. Read more about the three governance bodies [here](https://docs.zknation.io/zksync-governance/zksync-governance-procedures-overview#id-4.-governance-bodies).
 
-<figure><img src="../.gitbook/assets/gov body overview.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame.png" alt=""><figcaption></figcaption></figure>
 
 ### How do the governance bodies interact with each proposal type?
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-10-15 at 18.59.44.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame(1).png" alt=""><figcaption></figcaption></figure>
 
 ### Where is ZKsync governance deployed?
 
@@ -72,7 +72,7 @@ Capped minters for a program have to be deployed before a TPP is submitted oncha
 
 Capped minters are granted the MINTER role from the ZK token contract when the Token Assembly successfully passes a TPP.
 
-<figure><img src="../.gitbook/assets/Mechanics Designs(1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame(3).png" alt=""><figcaption></figcaption></figure>
 
 #### **Token Programs Standards**
 

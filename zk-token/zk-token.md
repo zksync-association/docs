@@ -8,7 +8,7 @@
 
 ## Token Distribution
 
-<figure><img src="../.gitbook/assets/ZK-image-v2-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame(5).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="152">Category</th><th width="198">Tokens</th><th>Percentage</th><th>Description</th></tr></thead><tbody><tr><td>Token Assembly</td><td>6,146,000,700</td><td>29.27%</td><td>To be allocated by the Token Assembly</td></tr><tr><td>Ecosystem Initiatives</td><td>4,179,000,000</td><td>19.90%</td><td>The ZKsync Foundation administers ecosystem initiatives supporting ZKsync ecosystem growth.</td></tr><tr><td>Airdrop</td><td>3,675,000,000</td><td>17.50%</td><td>A one-time airdrop with no lock ups.</td></tr><tr><td>Investors</td><td>4,154,642,006</td><td>19.78%</td><td>Investors and advisors</td></tr><tr><td>Team</td><td>2,845,357,294</td><td>13.55%</td><td>Matter Labs employees</td></tr><tr><td><strong>Sum</strong></td><td>21,000,000,000</td><td><strong>100%</strong></td><td></td></tr></tbody></table>
 
