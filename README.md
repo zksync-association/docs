@@ -1,6 +1,6 @@
 # Welcome to ZK Nation
 
-#### Welcome to ZK Nation, a community driven by a shared purpose to govern, defend, and grow the ZKsync protocol. ZK Nation unites individuals, organizations, and technologies to realize the [ZK Credo](https://docs.zknation.io/zk-nation/mission-zk-credo), expand freedom and accelerate intentional innovation.
+**ZK Nation unites chains, builders, and operators to govern and grow the ZKsync Protocol—connecting public and private ledgers in a single scalable trust network.**
 
 In these docs you can find information about ZK Nation, the ZK token, ZKsync Governance System, and frequently asked questions.
 
