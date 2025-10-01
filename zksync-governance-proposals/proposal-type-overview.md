@@ -6,7 +6,7 @@ Each proposal type has their own specific process given the parameters set on th
 
 **Proposal Parameters Overview**
 
-<figure><img src="../.gitbook/assets/Governance Processes Diagrams(11).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/12345Frame (1).png" alt=""><figcaption></figcaption></figure>
 
 > ℹ️ Learn more about the [voting extension period](https://forum.zknation.io/t/understanding-the-voting-extension/698) and how it works for each proposal type.&#x20;
 
