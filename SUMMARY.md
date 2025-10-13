@@ -49,7 +49,7 @@
 
 ## Legal
 
-* [ZK Token MiCA White Paper](legal/zk-token-mica-white-paper.md)
+* [ZK Token MiCA White Paper](legal/zk-token-whitepaper.md)
 * [Risk Factors & Disclaimers](legal/risk-factors-and-disclaimers.md)
 * [ZKsync Association Membership](legal/zksync-association-membership.md)
 * [ZKsync Governance Program Systems (ZKGPS)](legal/zksync-governance-program-systems-zkgps.md)

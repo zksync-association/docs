@@ -10,7 +10,7 @@ This ecosystem overview highlights the key players within ZK Nation and illustra
 
 Discover the governance bodies, supporting entities, and the governance procedures on the [ZKsync Governance Procedures: Overview](https://docs.zknation.io/zksync-governance/zksync-governance-procedures-overview) page.
 
-<figure><img src=".gitbook/assets/Frame(2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/FinalecoFrame.png" alt=""><figcaption></figcaption></figure>
 
 ### ZK Nation Links
 
