@@ -31,6 +31,7 @@
 * [Token Program Proposals (TPPs)](zksync-governance-proposals/token-program-proposals-tpps/README.md)
   * [TPP FAQ](zksync-governance-proposals/token-program-proposals-tpps/tpp-faq.md)
   * [Capped Minters 101](zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101.md)
+  * [Minter Mods Overview](zksync-governance-proposals/token-program-proposals-tpps/minter-mods-overview.md)
 * [Governance Advisory Proposals (GAPs)](zksync-governance-proposals/governance-advisory-proposals-gaps/README.md)
   * [GAP FAQ](zksync-governance-proposals/governance-advisory-proposals-gaps/gap-faq.md)
 
