@@ -7,4 +7,4 @@ description: >-
 
 # ZK Token MiCA White Paper
 
-{% embed url="https://drive.google.com/file/d/1oQtBUhtaSeHADS_GI0cxk9hi1mkinqnL/view?usp=drive_link" %}
+{% embed url="https://drive.google.com/file/d/1dFR6m1Kl21NmwO95gXioo2C4FIHZCr_e/view?usp=sharing" %}
