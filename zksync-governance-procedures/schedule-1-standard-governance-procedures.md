@@ -54,11 +54,11 @@
    1. **Proposal Submission**: Any Delegate who meets the proposal threshold is able to submit a proposal to the Token Governor, which is deployed on ZKsync Era, as well as the ZKsync Foundation Multisig, which has a signing threshold of three (3) Signers.&#x20;
       1. The proposal threshold required for a Delegate to submit a proposal to the Token Governor is 0.1% of the total number of ZK tokens that may be minted (currently 21 billion).
       2. A proposal may be submitted via the [ZKsync Governance Portal](https://vote.zknation.io/dao) or any other interface connected to the Token Governor.
-   2. **Vote Delay Period**: Upon submission, a proposal enters a seven (7) day vote delay period, prior to the commencement of the Voting Period.
+   2. **Vote Delay Period**: Upon submission, a proposal enters a three (3) day vote delay period, prior to the commencement of the Voting Period.
       1. A proposal may be cancelled during the Vote Delay Period by Guardians, if they choose to exercise their Onchain Veto as set out in _Schedule 4: ZKsync Guardians_.&#x20;
    3. **Voting Period**: The Voting Period for Token Governor proposals is seven (7) days.
       1. Token Governor proposals have a quorum requirement of 3.0% (or 630 million) of the total number of ZK tokens that may be minted (currently 21 billion) and require a simple majority of the total number of "for" and "against" votes (i.e., casted votes without considering abstentions) to pass.
-      2. If a vote causes quorum to be reached, the proposal's voting period is extended so that it does not end before the following 7 days have passed.
+      2. If a vote causes quorum to be reached in the last 2 days of the voting period, the proposal's voting period is extended 2 days from the point quorum is met.
       3. A proposal may be cancelled during the Voting Period by Guardians, if they choose to exercise their Onchain Veto as set out in _Schedule 4: ZKsync Guardians_. &#x20;
    4. **Timelock Period**: If an Onchain Veto is not exercised by the Guardians during the Onchain Veto Period, and the proposal is approved by Delegates, the proposal progresses to a 3-day Timelock Period.&#x20;
    5. **Execution**: Following the expiration of the Timelock Period, the proposal is queued for permissionless execution on ZKsync Era.&#x20;
@@ -75,11 +75,11 @@
    1. **Proposal Submission**: Any Delegate who meets the proposal threshold is able to submit a proposal to the GovOps Governor.
       1. The proposal threshold required for a Delegate to submit a proposal to the GovOps Governor is 0.1% of the total number of ZK tokens that may be minted (currently 21 billion).
       2. A proposal may be submitted via the [ZKsync Governance Portal](https://vote.zknation.io/dao) or any other interface connected to the GovOps Governor.
-   2. **Vote Delay Period**: Upon submission, a proposal enters a seven (7) day vote delay period, prior to the commencement of the Voting Period.
+   2. **Vote Delay Period**: Upon submission, a proposal enters a three (3) day vote delay period, prior to the commencement of the Voting Period.
       1. A proposal may be cancelled during the Vote Delay Period by Guardians, if they choose to exercise their Onchain Veto as set out in _Schedule 4: ZKsync Guardians_.&#x20;
    3. **Voting Period**: The Voting Period for GovOps Governor proposals is seven (7) days.
       1. GovOps Governor proposals have a quorum requirement of 3.0% (or 630 million) of the total number of ZK tokens that may be minted (currently 21 billion) and require a simple majority of the total number of "for" and "against" votes (i.e., casted votes without considering abstentions) to pass.
-         1. If a vote causes quorum to be reached, the proposal's voting period is extended so that it does not end before the following 7 days have passed.
+         1. If a vote causes quorum to be reached in the last 2 days of the voting period, the proposal's voting period is extended 2 days from the point quorum is met.
          2. A proposal may be cancelled during the Voting Period by Guardians, if they choose to exercise their Onchain Veto as set out in _Schedule 4: ZKsync Guardians_.&#x20;
    4. **Timelock Period**: If an Onchain Veto is not exercised by the Guardians during the Onchain Veto Period, and the proposal is approved by Delegates, the proposal progresses to a 3-day Timelock Period.
    5. **Execution**: Following the expiration of the Timelock Period, the proposal may be executed, offchain or onchain, at the discretion of the proposer or parties named in the specification of the proposal.

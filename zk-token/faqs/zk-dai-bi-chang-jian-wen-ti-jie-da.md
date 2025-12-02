@@ -100,8 +100,7 @@ _\*Gitcoin 向我们提供了通过 Gitcoin 在 ZKsync Lite 上捐款的用户�
 
 以下项目类别获得了追溯性奖励:
 
-1. 头部 DeFi 协议。ZKsync Era 上按照 TVL 排名的头部 DeFi 协议已证明其致力于在 ZKsync 上进行构建。[DeFi Llama](https://defillama.com/chain/zkSync%20Era)上列出了超过一百个项目，其中包括 TVL 超过 200 万美元的项目。这些项目都致力于用空投分配来进一步促进 ZKsync 上的 DeFi 生态的发展。\
-
+1. 头部 DeFi 协议。ZKsync Era 上按照 TVL 排名的头部 DeFi 协议已证明其致力于在 ZKsync 上进行构建。[DeFi Llama](https://defillama.com/chain/zkSync%20Era)上列出了超过一百个项目，其中包括 TVL 超过 200 万美元的项目。这些项目都致力于用空投分配来进一步促进 ZKsync 上的 DeFi 生态的发展。<br>
 2. 头部的社区主导的增长。一直在建立自己的社区并与 ZKsync 生态中的其他社区合作的项目。其中包括游戏、NFT 和 meme 项目。
 
 以下项目类别已获得即将发布的主动分配。这些项目已承诺将其分配奖励重新分配给 ZKsync 社区（请参阅[初始公告推文流](https://x.com/TheZKNation/status/1801378351040307565)）：
