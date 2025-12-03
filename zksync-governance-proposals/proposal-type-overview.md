@@ -26,4 +26,4 @@ Each proposal type has their own specific process given the parameters set on th
 
 The proposal standard processes for each proposal type are outlined in [Schedule 2: Emergency Response Procedures](https://docs.zknation.io/zksync-governance/schedule-2-emergency-response-procedures)**.**
 
-<figure><img src="../.gitbook/assets/emergency_upgrade.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Emergency Upgrade_v2.png" alt=""><figcaption></figcaption></figure>
