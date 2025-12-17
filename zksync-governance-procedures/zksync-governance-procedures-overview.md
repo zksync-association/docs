@@ -1,6 +1,6 @@
 # ZKsync Governance Procedures: Overview
 
-_Version published on 12 September 2024_
+_Version published on 12 September 2024. Last updated on 2 December 2025._
 
 ### 1. Introduction&#x20;
 
