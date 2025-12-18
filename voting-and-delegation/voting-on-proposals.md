@@ -7,7 +7,7 @@ Delegates who have been delegated ZK token voting power can vote on ZKsync gover
 Delegates can interact with ZKsync contracts through specialized website applications called governance portals. Currently, there are two primary governance portals connected to ZKsync governance contracts:
 
 1. **Tally:** The ZKsync Tally Governance Portal is owned and managed by the ZKsync Association. You can access the portal at [vote.zknation.io](http://vote.zknation.io). Follow [these steps](https://docs.tally.xyz/user-guides/using-governor-with-gnosis-safe/voting-with-a-gnosis-safe) to vote with a multisig on Tally.
-2. **Boardroom:** Boardroom was recently deprecated. The ZKsync Association is running an RFP process to replace Boardroom as a secondary governance interface.
+2. **alt.vote.zknation.io:** This interface offers an alternative to the Tally interface. You can access the portal at [alt.vote.zknation.io](http://alt.vote.zknation.io/).&#x20;
 
 ### Voting through the ZKsync Era Block Explorer
 
