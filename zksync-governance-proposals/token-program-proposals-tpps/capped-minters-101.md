@@ -30,13 +30,16 @@ You can deploy a capped minter through a the [ZKCappedMinterV2 Factory](https://
 ![Screenshot 2025-03-19 at 10.30.21](https://forum.zknation.io/uploads/db7785/optimized/1X/dc41a0dd33d0ceaffe92081358c0b8406ad34c6a_2_690x407.png)
 
 3. Connect your wallet
-4. Specificy the parameters for the capped minter V2 being deployed:
-   * **Mintable Token Address (`_mintable`):** The address of the token contract that will be minted from.
-   * **Administrator Address (`_admin`):** The address granted administrative privileges, including the ability to assign the MINTER role.
-   * **Minting Cap (`_cap`):** The maximum number of tokens that can be minted by this contract.
-   * **Start Time (`_startTime`):** The seconds timestamp from which minting is permitted.
-   * **Expiration Time (`_expirationTime`):** The seconds timestamp after which minting is no longer allowed. Please note that any child capped minters will expire on the specified end date of a parent capped minter.
-   * **saltNonce:** arbitrary value that helps define the deployed contract’s address.
+4.  Specificy the parameters for the capped minter V2 being deployed:
+
+    * **Mintable Token Address (`_mintable`):** The address of the token contract that will be minted from.
+    * **Administrator Address (`_admin`):** The address granted administrative privileges, including the ability to assign the MINTER role.
+    * **Minting Cap (`_cap`):** The maximum number of tokens that can be minted by this contract.
+    * **Start Time (`_startTime`):** The seconds timestamp from which minting is permitted.
+    * **Expiration Time (`_expirationTime`):** The seconds timestamp after which minting is no longer allowed. Please note that any child capped minters will expire on the specified end date of a parent capped minter.
+    * **saltNonce:** arbitrary value that helps define the deployed contract’s address.
+
+    > Please note that these parameters cannot be updated after the contract has been deployed.&#x20;
 
 ![Screenshot 2025-03-19 at 10.58.50](https://forum.zknation.io/uploads/db7785/optimized/1X/8b46925e76e4573a035d64c0080c14f8d129b058_2_679x500.png)
 

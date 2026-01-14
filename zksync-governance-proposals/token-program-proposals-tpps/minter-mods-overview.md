@@ -20,7 +20,7 @@ There are currently four audited Minter Mods in the ZKsync Minter Mod toolkit. V
 
 <table data-header-hidden><thead><tr><th width="165"></th><th></th></tr></thead><tbody><tr><td><strong>Sourcecode</strong></td><td><a href="https://github.com/zksync-association/zkminters/blob/main/src/ZkMinterRateLimiterV1.sol">https://github.com/zksync-association/zkminters/blob/main/src/ZkMinterRateLimiterV1.sol</a></td></tr><tr><td><strong>Audit</strong></td><td><a href="https://github.com/zksync-association/zkminters/blob/main/audits/ZKRateLimiterReview_final_with_fixes.pdf">https://github.com/zksync-association/zkminters/blob/main/audits/ZKRateLimiterReview_final_with_fixes.pdf</a></td></tr><tr><td><strong>Deployment Factory</strong></td><td><a href="https://explorer.zksync.io/address/0x6Cb59905FCEDA9f578a5fAC5867D0560f762Cb00#contract%23write">ZkMinterRateLimiterV1Factory</a></td></tr></tbody></table>
 
-**Description:** Limits the rate at which tokens can be minted over a specified period of time (e.g. day, week, month). This enables Token Programs to be “self-serve” and adds a level of security by putting a cap on how much any party with minting rights can mint within a given time period.
+**Description:** Limits the rate at which tokens can be minted over a specified period of time (e.g. day, week, month). This enables Token Programs to be “self-serve” and adds a level of security by putting a cap on how much any party with minting rights can mint within a given time period.&#x20;
 
 **Examples of use:**
 
@@ -29,6 +29,8 @@ There are currently four audited Minter Mods in the ZKsync Minter Mod toolkit. V
 * **Price fluctuation protection**: Put a “global” rate limiter on a program parent capped minter (rather than on each child capped minter) to prevent the total amount minted from any children to not succeed a certain amount from the parent if price fluctuates dramatically during the program.
 
 **How to deploy:** Use the [ZkMinterRateLimiterV1Factory](https://explorer.zksync.io/address/0x6Cb59905FCEDA9f578a5fAC5867D0560f762Cb00#contract%23write) to deploy a Rate Limiter mod. Please reach out to the ZKsync Governance Team for guidance on mechanic deployment.
+
+> The admin of a Rate Limiter contract is able to update the \_mintRateLimit and \_mintRateLimitWindow variables after it has been deployed if needed.&#x20;
 
 #### Delay Mod
 
