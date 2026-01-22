@@ -36,7 +36,7 @@ The ZKsync Governance system is governed by three governance bodies: The Token A
 
 ### How do the governance bodies interact with each proposal type?
 
-<figure><img src="../.gitbook/assets/Frame(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/govbodies_proposals.png" alt=""><figcaption></figcaption></figure>
 
 ### Where is ZKsync governance deployed?
 
