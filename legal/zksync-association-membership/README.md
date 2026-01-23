@@ -41,5 +41,5 @@ The ZKsync Association operates as a non-profit and it relies on donations in or
 
 ### Association Membership
 
-Please refer to the [ZKsync Association Membership](https://docs.zknation.io/legal/zksync-association-membership) page to learn more about membership.
+Please refer to the [ZKsync Association Membership](https://docs.zknation.io/legal/zksync-association-membership/zksync-association-membership) page to learn more about membership.
 
