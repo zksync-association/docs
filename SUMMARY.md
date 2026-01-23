@@ -52,5 +52,7 @@
 
 * [ZK Token MiCA White Paper](legal/zk-token-whitepaper.md)
 * [Risk Factors & Disclaimers](legal/risk-factors-and-disclaimers.md)
-* [ZKsync Association Membership](legal/zksync-association-membership.md)
+* [ZKsync Association](legal/zksync-association-membership/README.md)
+  * [ZKsync Association Membership](legal/zksync-association-membership/zksync-association-membership.md)
+  * [Annual Reports](https://github.com/zksync-association/governance-resources/tree/main/Annual-Reports)
 * [ZKsync Governance Program Systems (ZKGPS)](legal/zksync-governance-program-systems-zkgps.md)
