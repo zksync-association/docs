@@ -36,7 +36,7 @@ The ZKsync Governance system is governed by three governance bodies: The Token A
 
 ### How do the governance bodies interact with each proposal type?
 
-<figure><img src="../.gitbook/assets/govbodies_proposals.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/proposalsbodies (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Where is ZKsync governance deployed?
 
@@ -72,7 +72,7 @@ Capped minters for a program have to be deployed before a TPP is submitted oncha
 
 Capped minters are granted the MINTER role from the ZK token contract when the Token Assembly successfully passes a TPP.
 
-<figure><img src="../.gitbook/assets/Frame(3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/capped minter.png" alt=""><figcaption></figcaption></figure>
 
 #### **Token Programs Standards**
 

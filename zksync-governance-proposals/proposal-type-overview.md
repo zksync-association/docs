@@ -6,24 +6,24 @@ Each proposal type has their own specific process given the parameters set on th
 
 **Proposal Parameters Overview**
 
-<figure><img src="../.gitbook/assets/Updated after TPP-14 &#x26; GAP-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ProposalPhaseOverview.png" alt=""><figcaption></figcaption></figure>
 
 > ℹ️ Learn more about the [voting extension period](https://forum.zknation.io/t/understanding-the-voting-extension/698) and how it works for each proposal type.&#x20;
 
 **ZIP Process & Timeline**
 
-<figure><img src="../.gitbook/assets/ZIPs updated v3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Protocol Governor_1.png" alt=""><figcaption></figcaption></figure>
 
 **TPP Process & Timeline**
 
-<figure><img src="../.gitbook/assets/Token Governor_v2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Token Governor_1.png" alt=""><figcaption></figcaption></figure>
 
 **GAP Process & Timeline**
 
-<figure><img src="../.gitbook/assets/GovOps Governor_v1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/GovOps Governor_2.png" alt=""><figcaption></figcaption></figure>
 
 #### What is the proposal process for emergency upgrades?
 
 The proposal standard processes for each proposal type are outlined in [Schedule 2: Emergency Response Procedures](https://docs.zknation.io/zksync-governance/schedule-2-emergency-response-procedures)**.**
 
-<figure><img src="../.gitbook/assets/Emergency Upgrade_v2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Emergency Upgrade_2.png" alt=""><figcaption></figcaption></figure>
