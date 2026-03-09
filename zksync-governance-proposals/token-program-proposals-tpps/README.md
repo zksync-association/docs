@@ -2,7 +2,7 @@
 
 ### What is a ZK Token Program Proposal (TPP)?
 
-Token Program Proposals (TPPs) include all proposals submitted through the ZKsync [Token Governor](https://docs.google.com/document/d/1M2eq7oTw13XqEeVeBWcaDoBvmR-BdWRl3fYlFU8l-W4/edit?usp=sharing). Token Programs assign minting and burning rights of ZK tokens to specified capped minters, activating new mechanics to distribute the ZK token. All TPPs should be aligned with these guidelines to help achieve the goals supporting the vision of the ZK Credo.&#x20;
+Token Program Proposals (TPPs) include all proposals submitted through the ZKsync [Token Governor.](https://github.com/zksync-association/zk-governance/blob/master/l2-contracts/src/ZkTokenGovernor.sol) Token Programs assign minting and burning rights of ZK tokens to specified capped minters, activating new mechanics to distribute the ZK token. All TPPs should be aligned with these guidelines to help achieve the goals supporting the vision of the ZK Credo.&#x20;
 
 > ℹ️ Learn more about ZKsync strategic priorities by visiting the [ZKsync Governance North Star](https://docs.zknation.io/zk-nation/zksync-governance-system-north-star) and [GAP-1: ZKsync Token Program Priorities 2025 v1.0](https://vote.zknation.io/dao/proposal/13823050748058617424077595486689751986818771098977300222700522842013613046754?govId=eip155:324:0x496869a7575A1f907D1C5B1eca28e4e9E382afAb).
 
