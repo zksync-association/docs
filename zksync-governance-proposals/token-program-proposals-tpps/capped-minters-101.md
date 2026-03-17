@@ -13,8 +13,8 @@ The current version of the capped minter contract is the [ZKCappedMinterV3](http
 * **Minting Cap:** Like V2, the ZK Capped Minter V3 enforces a strict upper limit on the total number of tokens that can be minted, ensuring controlled token allocations.
 * **Multiple Minters:** Uses role-based permissions to manage minting rights, enabling the immutable admin to assign multiple minters for the capped minter.
 * **Nested Minters:** As a result of the minter role, token programs can have hierarchies of nested capped minters. This is particularly useful for the creation of sub-programs, or agent-specific minting rights.
-* **Transferable admin:** Unlike the v2, it is possible to transfer the admin role to a different address by the admin, enabling flexible deployment configuration & admin management
-* **Updatable MINTABLE address:** Unlike the v2, the minting source of a program mechanic or capped minter can be updated if original source reaches the minting cap
+* **Transferable admin:** Unlike the V2, it is possible to transfer the admin role to a different address by the admin, enabling flexible deployment configuration & admin management
+* **Updatable MINTABLE address:** Unlike the V2, the minting source of a program mechanic or capped minter can be updated if original source reaches the minting cap
 * **Start and Expiration Dates:** Adds the ability to arbitrarily set a start and expiration time for a capped minter.
 * **Pause and Cancel Operations:** Allows the admin to pause or fully cancel minting activities, providing a safeguard against unforeseen issues. The admin can also assign other addresses to have the power to pause.
 * **Metadata:** Allows admin to set a custom metadata URI, allowing each minter to contained additional information related to connected token flows.
