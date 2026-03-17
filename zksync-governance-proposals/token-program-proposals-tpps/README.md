@@ -14,7 +14,7 @@ How is this relevant for governance? Unlike other token launches, not all ZK tok
 
 > ℹ️ Learn more about the [benefits of capped minters](https://forum.zknation.io/t/understanding-key-benefits-of-capped-minters/686).
 
-> ℹ️ Token Programs must use the [latest version of the ZK capped minter](https://forum.zknation.io/t/zk-capped-minter-v2-nested-minters-start-time-expiration-pause-and-cancel/417) (currently V2) contracts and factory. Once deployed, the contracts and admin multisig (if applicable) must have at least one security review by a Security Council member or reputable security firm.
+> ℹ️ Token Programs must use the latest version of the ZK capped minter (currently V3) contracts and factory. Once deployed, the contracts and admin multisig (if applicable) must have at least one security review by a Security Council member or reputable security firm.
 
 ### What is a token mechanic?
 

@@ -4,15 +4,17 @@
 
 Capped minters are unique smart contracts of the ZKsync ecosystem that allow for “just-in-time minting.” Each capped minter is assigned a maximum number of tokens, known as the “cap,” which is allowed to be minted. Those with the minter role of a capped minter can mint tokens from that supply whenever they choose to, up to the maximum specified. [Learn more about how Capped Minters](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps#what-is-a-capped-minter) are used in ZKsync token governance.
 
-### ZK Capped Minter V2
+### ZK Capped Minter V3
 
-The current version of the capped minter contract is the [ZKCappedMinterV2](https://github.com/zksync-association/zk-governance/blob/master/l2-contracts/src/ZkCappedMinterV2.sol). The ZK Capped Minter V2 expands the limited functionality of V1, where the creator could assign a token, admin, and cap.
+The current version of the capped minter contract is the [ZKCappedMinterV3](https://github.com/zksync-association/zkminters/blob/main/src/ZkCappedMinterV3.sol). The ZK Capped Minter V3 expands the limited functionality of V2.
 
-**ZK Capped Minter V2 Features Overview:**
+**ZK Capped Minter V3 Features Overview:**
 
-* **Minting Cap:** Like V1, the ZK Capped Minter V2 enforces a strict upper limit on the total number of tokens that can be minted, ensuring controlled token allocations.
+* **Minting Cap:** Like V2, the ZK Capped Minter V3 enforces a strict upper limit on the total number of tokens that can be minted, ensuring controlled token allocations.
 * **Multiple Minters:** Uses role-based permissions to manage minting rights, enabling the immutable admin to assign multiple minters for the capped minter.
 * **Nested Minters:** As a result of the minter role, token programs can have hierarchies of nested capped minters. This is particularly useful for the creation of sub-programs, or agent-specific minting rights.
+* **Transferable admin:** Unlike the v2, it is possible to transfer the admin role to a different address by the admin, enabling flexible deployment configuration & admin management
+* **Updatable MINTABLE address:** Unlike the v2, the minting source of a program mechanic or capped minter can be updated if original source reaches the minting cap
 * **Start and Expiration Dates:** Adds the ability to arbitrarily set a start and expiration time for a capped minter.
 * **Pause and Cancel Operations:** Allows the admin to pause or fully cancel minting activities, providing a safeguard against unforeseen issues. The admin can also assign other addresses to have the power to pause.
 * **Metadata:** Allows admin to set a custom metadata URI, allowing each minter to contained additional information related to connected token flows.
@@ -20,17 +22,18 @@ The current version of the capped minter contract is the [ZKCappedMinterV2](http
 
 ### Deploying a Capped Minter
 
-You can deploy a capped minter through a the [ZKCappedMinterV2 Factory](https://explorer.zksync.io/address/0x0400E6bc22B68686Fb197E91f66E199C6b0DDD6a#contract#contract-info). You can find the source code for the V2 Factory [here](https://github.com/zksync-association/zk-governance/blob/master/l2-contracts/src/ZkCappedMinterV2Factory.sol). The V2 Factory was created to make capped minter deployment more accessible.
+You can deploy a capped minter through a the [ZKCappedMinterV3 Factory](https://explorer.zksync.io/address/0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9#contract#write). You can find the source code for the V3 Factory [here](https://github.com/zksync-association/zkminters/blob/main/src/ZkCappedMinterV3.sol). The V3 Factory was created to make capped minter deployment more accessible.
 
-> ℹ️ Testnet capped minter deployment can be done through the [Testnet\_ZkCappedMinterV2Factory](https://sepolia.explorer.zksync.io/address/0x329CE320a0Ef03F8c0E01195604b5ef7D3Fb150E#contract#write)
+> ℹ️ Testnet capped minter deployment can be done through the [Testnet\_ZkCappedMinterV3Factory](https://sepolia.explorer.zksync.io/address/0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9#contract%23write)
 
-1. Go to the [CappedMinter V2 Factory](https://explorer.zksync.io/address/0x0400E6bc22B68686Fb197E91f66E199C6b0DDD6a#contract#contract-info)
+1. Go to the [CappedMinter V3 Factory](https://explorer.zksync.io/address/0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9#contract%23write)
 2. Select “Contract” and “Write”
+3. Toggle down "1. createMinter"
 
-![Screenshot 2025-03-19 at 10.30.21](https://forum.zknation.io/uploads/db7785/optimized/1X/dc41a0dd33d0ceaffe92081358c0b8406ad34c6a_2_690x407.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-09 at 16.01.02.png" alt=""><figcaption></figcaption></figure>
 
 3. Connect your wallet
-4.  Specificy the parameters for the capped minter V2 being deployed:
+4.  Specify the parameters for the capped minter V3 being deployed:
 
     * **Mintable Token Address (`_mintable`):** The address of the token contract that will be minted from.
     * **Administrator Address (`_admin`):** The address granted administrative privileges, including the ability to assign the MINTER role.
@@ -41,7 +44,7 @@ You can deploy a capped minter through a the [ZKCappedMinterV2 Factory](https://
 
     > Please note that these parameters cannot be updated after the contract has been deployed.&#x20;
 
-![Screenshot 2025-03-19 at 10.58.50](https://forum.zknation.io/uploads/db7785/optimized/1X/8b46925e76e4573a035d64c0080c14f8d129b058_2_679x500.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2026-03-09 at 16.01.41.png" alt=""><figcaption></figcaption></figure>
 
 ### Verifying a Capped Minter
 
