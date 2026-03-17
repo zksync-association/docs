@@ -17,7 +17,7 @@
   * Timelock: [0xC9E442574958f96C026DeF9a50C3236cab17428a](https://explorer.zksync.io/address/0xC9E442574958f96C026DeF9a50C3236cab17428a)
 * Capped Minter Deployment
   * [ZkCappedMinterV3.sol](https://zkcappedminterv3.solhttps/github.com/zksync-association/zkminters/blob/main/src/ZkCappedMinterV3.sol)
-  * [ZkCappedMinterV2Factory.sol](https://github.com/zksync-association/zkminters/blob/main/src/ZkCappedMinterV3Factory.sol)
+  * [ZkCappedMinterV3Factory.sol](https://github.com/zksync-association/zkminters/blob/main/src/ZkCappedMinterV3Factory.sol)
   * ZkCappedMinterV3Factory: [0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9](https://explorer.zksync.io/address/0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9#contract%23write)
 * Active ZK Capped Minters
   * [0x66fd4fc8fa52c9bec2aba368047a0b27e24ecfe4](https://explorer.zksync.io/address/0x66fd4fc8fa52c9bec2aba368047a0b27e24ecfe4) (Initial Merkle Distributor for ZK Airdrop)
