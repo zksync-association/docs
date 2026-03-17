@@ -80,7 +80,7 @@ L1 Contracts
   * Governor: [0x56f6379F945e95558069acb3E945ee3480025605](https://sepolia.explorer.zksync.io/address/0x56f6379F945e95558069acb3E945ee3480025605)
   * Timelock: [0x0569a17602Ef32B8aa2fdeC44DCD3F7109f96f91](https://sepolia.explorer.zksync.io/address/0x0569a17602Ef32B8aa2fdeC44DCD3F7109f96f91)
 * Capped Minter Deployment
-  * ZkCappedMinterV2Factory: [0x329CE320a0Ef03F8c0E01195604b5ef7D3Fb150E](https://sepolia.explorer.zksync.io/address/0x329CE320a0Ef03F8c0E01195604b5ef7D3Fb150E#contract#write)
+  * ZkCappedMinterV3Factory: [0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9](https://sepolia.explorer.zksync.io/address/0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9#contract#write)
 
 ### L1 Contracts
 
