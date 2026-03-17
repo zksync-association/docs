@@ -16,7 +16,7 @@
   * Governor: [0xEEEa739a8b6fB1b8f703E23C9Be03CeeA643b160](https://explorer.zksync.io/address/0xEEEa739a8b6fB1b8f703E23C9Be03CeeA643b160)
   * Timelock: [0xC9E442574958f96C026DeF9a50C3236cab17428a](https://explorer.zksync.io/address/0xC9E442574958f96C026DeF9a50C3236cab17428a)
 * Capped Minter Deployment
-  * [ZkCappedMinterV3.sol](https://docs.zknation.io/zk-nation/zksync-governance-contract-addresses)
+  * [ZkCappedMinterV3.sol](https://github.com/zksync-association/zkminters/blob/main/src/ZkCappedMinterV3.sol)
   * [ZkCappedMinterV3Factory.sol](https://github.com/zksync-association/zkminters/blob/main/src/ZkCappedMinterV3Factory.sol)
   * ZkCappedMinterV3Factory: [0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9](https://explorer.zksync.io/address/0xABF70d9a1fe52ca5e9339A6Ef76759614C1b5eE9#contract%23write)
 * Active ZK Capped Minters
