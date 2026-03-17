@@ -2,7 +2,7 @@
 
 ### What are Minter Mods?
 
-Minter Modifiers, or “Minter Mods,” are additional contracts that can be deployed and connected to a capped minter. Each Minter Mod is a separate contract that implements specific minting rules or restrictions, and they all follow a consistent interface (ZkMinterV1) that allows them to be composed together. These mods can be chained together in any order, with each one acting as a gatekeeper that must approved before the mint request reaches the CappedMinterV3.
+Minter Modifiers, or “Minter Mods,” are additional contracts that can be deployed and connected to a capped minter. Each Minter Mod is a separate contract that implements specific minting rules or restrictions, and they all follow a consistent interface (ZkMinterV1) that allows them to be composed together. These mods can be chained together in any order, with each one acting as a gatekeeper that must approved before the mint request reaches the [CappedMinterV3](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101#zk-capped-minter-v3).
 
 The four current Minter Mods are the Rate Limiter Mod, Delay Mod, Eligibility Mod and Trigger Mod. Read more about each below.
 
