@@ -40,7 +40,7 @@
 ### Depricated Production Contracts:
 
 {% hint style="info" %}
-As s result of how [ZIP-5](https://vote.zknation.io/dao/proposal/32477831455745537024214395992964479454779258818502397012096084176779102554510?govId=eip155:324:0x76705327e682F2d96943280D99464Ab61219e34f) was executed, certain contracts listed above were updated. The depricated contracts are listed below.&#x20;
+As a result of how [ZIP-5](https://vote.zknation.io/dao/proposal/32477831455745537024214395992964479454779258818502397012096084176779102554510?govId=eip155:324:0x76705327e682F2d96943280D99464Ab61219e34f) was executed, certain contracts listed above were updated. The depricated contracts are listed below.&#x20;
 {% endhint %}
 
 ZkProtocolGovernor
