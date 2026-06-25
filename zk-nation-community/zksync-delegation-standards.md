@@ -21,7 +21,7 @@ In addition to the general community standards outlined in the [ZK Nation Code o
 
 ### Conflicts of Interest
 
-* Delegates should avoid conflicts of interest where possible and mitigate their impact when not possible. Please disclose any conflicts of interest in your Tally Delegate profile and be sure to keep it up to date as things change.
+* Delegates should avoid conflicts of interest where possible and mitigate their impact when not possible. Please disclose any conflicts of interest in your Cactus Delegate profile and be sure to keep it up to date as things change.
 
 ### **Communication, Availability and Responsiveness**
 

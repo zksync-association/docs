@@ -6,7 +6,7 @@ Delegates who have been delegated ZK token voting power can vote on ZKsync gover
 
 Delegates can interact with ZKsync contracts through specialized website applications called governance portals. Currently, there are two primary governance portals connected to ZKsync governance contracts:
 
-1. **Tally:** The ZKsync Tally Governance Portal is owned and managed by the ZKsync Association. You can access the portal at [vote.zknation.io](http://vote.zknation.io). Follow [these steps](https://docs.tally.xyz/user-guides/using-governor-with-gnosis-safe/voting-with-a-gnosis-safe) to vote with a multisig on Tally.
+1. **Cactus:** The ZKsync Tally Governance Portal is owned and managed by the ZKsync Association. You can access the portal at [vote.zknation.io](http://vote.zknation.io). Follow [these steps](https://docs.tally.xyz/user-guides/using-governor-with-gnosis-safe/voting-with-a-gnosis-safe) to vote with a multisig on Cactus.
 2. **alt.vote.zknation.io:** This interface offers an alternative to the Tally interface. You can access the portal at [alt.vote.zknation.io](http://alt.vote.zknation.io/).&#x20;
 
 ### Voting through the ZKsync Era Block Explorer
@@ -32,7 +32,7 @@ Navigate to the right governor contract by pasting the relevant governor contrac
 
 #### Step 3: Find the Right Proposal
 
-* Identify the proposal ID, for example on Tally
+* Identify the proposal ID, for example on Cactus
 
 <figure><img src="../.gitbook/assets/voting image 3.png" alt=""><figcaption></figcaption></figure>
 
@@ -84,7 +84,7 @@ Once the address is entered, the ABI should load automatically.&#x20;
 
 #### Step 4: Find the right proposal
 
-* Identify the correct proposal ID, for example on Tally
+* Identify the correct proposal ID, for example on Cactus
 
 <figure><img src="../.gitbook/assets/voting image 3.png" alt=""><figcaption></figcaption></figure>
 
