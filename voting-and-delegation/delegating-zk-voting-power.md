@@ -34,10 +34,11 @@ If you are are interested in participating as a Delegate, visit [Getting Started
 
 * Login to your [Safe wallet](https://app.safe.global/welcome/accounts) and select "New transaction" in the top left corner.
 * Select "Transaction Builder"&#x20;
-* Enter the ZK token contract. All governance contracts can be found on the [ZKsync Governance Cotnract Addresses](../zk-nation/zksync-governance-contract-addresses.md) page. Once the address is entered, the ABI should load automatically.&#x20;
+* Enter the ZK token contract. All governance contracts can be found on the [ZKsync Governance Conract Addresses](../zk-nation/zksync-governance-contract-addresses.md) page. Once the address is entered, the ABI should load automatically.&#x20;
 * Scroll down the page and change the _Contract Method Selector_ input. Change it to `delegate`
 * Enter the address of the Delegate you would like to delegate to (yourself or another Delegate)
 * Select “Add new transaction”
 * Select “Create branch” in top right and follow the instructions in the Safe UI to review and execute the transaction
 
-> For more details on how to delegate your voting power on Cactus, [see this guide.](https://docs.tally.xyz/knowledge-base/delegations-on-tally/delegating-voting-power)
+> For more details on how to delegate your voting power on Cactus, [see this guide](https://docs.tally.xyz/how-to-use-tally/delegate-on-tally/).&#x20;
+
