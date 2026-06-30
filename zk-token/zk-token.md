@@ -26,6 +26,6 @@ This explains the discrepancy between `Max Total Supply` visible on the [block e
 
 After the ZK token launch, capped minters were created to distribute token allocations to the ZKsync Foundation, the airdrop, Investors, and Matter Labs' team member vesting contracts. The 29.3% that is governed by the Token Assembly is not in a capped minter, it is simply the remaining amount on the ZK token contract. The Token Assembly grants minting rights to administrators of Token Programs. Read more here about [Token Program Proposals](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps).
 
-> ℹ️ Read more about the [latest version of the ZK capped minter](https://forum.zknation.io/t/zk-capped-minter-v2-nested-minters-start-time-expiration-pause-and-cancel/417) (currently V2) contracts and factory. Once deployed, the contracts and admin multisig (if applicable) must undergo at least one security review by a Security Council member or reputable security firm.
+> ℹ️ Read more about the [latest version of the ZK capped minter ](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101)(currently V3) contracts and factory. Once deployed, the contracts and admin multisig (if applicable) must undergo at least one security review by a Security Council member or reputable security firm.
 
 > Between October 24 and October 30, Team tokens were transferred from one custody provider to another. These tokens began to unlock as per the details in `Lock Ups` heading above.
