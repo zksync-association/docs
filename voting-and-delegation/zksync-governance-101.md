@@ -66,9 +66,9 @@ Each capped minter receives a maximum number of tokens they are allowed to mint.
 
 In the ZKsync governance framework, **Token Program Proposals (TPPs)** are used to assign minting and burning rights of ZK tokens to specified capped minters, and activate new token mechanics.
 
-A program can have one or multiple capped minters. It is also possible to nest “child” capped minters under “parent” capped minters. Learn more about capped minter V2 contracts [here](https://forum.zknation.io/t/zk-capped-minter-v2-nested-minters-start-time-expiration-pause-and-cancel/417).
+A program can have one or multiple capped minters. It is also possible to nest “child” capped minters under “parent” capped minters. Learn more about capped minter V3 contracts [here](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101#zk-capped-minter-v3).
 
-Capped minters for a program have to be deployed before a TPP is submitted onchain. Capped minters can be assigned an admin, cap, start and stop time upon deployment. Learn more about how to deploy a capped minter in the V2 factory [here](https://forum.zknation.io/t/zk-capped-minter-v2-nested-minters-start-time-expiration-pause-and-cancel/417#p-997-capped-minter-v2-deployment-verification-instructions-3).
+Capped minters for a program have to be deployed before a TPP is submitted onchain. Capped minters can be assigned an admin, cap, start and stop time upon deployment. Learn more about how to deploy a capped minter in the V3 factory [here](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101).
 
 Capped minters are granted the MINTER role from the ZK token contract when the Token Assembly successfully passes a TPP.
 

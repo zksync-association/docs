@@ -46,7 +46,7 @@ A ZK Token Program Proposal should include all the necessary information for ZKs
   * **Public Reporting:** Publishing of consistant reports for transparency of progress and updates
   * **Onchain Token Allocation Tracking:** Token allocations are publicly available by default, but some programs may include additional analytics tracking.
   * **Token Assembly oversight:** The Token Assembly may cancel the program at any point via a Token Program Proposal. See [Token Program Cancellation](./) below.
-  * **Legal Contracts:** All Program Administrators (multisig signers), program service providers and directly listed recipients of ZK tokens in any given proposal will be required to contract with ZKGPS and complete KYY/KYB. [Learn more about ZKGPS here](../../legal/zksync-governance-program-systems-zkgps.md).&#x20;
+  * **Legal Contracts:** All Program Administrators (multisig signers), program service providers and directly listed recipients of ZK tokens in any given proposal will be required to contract with ZKGPS and complete KYC/KYB. [Learn more about ZKGPS here](../../legal/zksync-governance-program-systems-zkgps.md).&#x20;
 
 > ✍️ TEMPLATE: Proposal authors are encouraged to follow the [standard proposal template for Token Program Proposals](https://github.com/zksync-association/governance-resources/blob/main/proposal-templates/02_tpp_template_token_governor.md).\
 > \

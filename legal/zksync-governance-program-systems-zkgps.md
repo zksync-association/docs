@@ -13,7 +13,7 @@ The purpose of ZKGPS is to:
 
 The ZKsync Governance Team will work closely with the Director of ZKGPS to connect proposal authors, multisig signers and service providers with ZKGPS in order to complete KYC and coordinate contracts.
 
-ZKGPS was established on October 24th 2024.The bylaws for ZKGPS can be found [here](https://drive.google.com/file/d/1Br26DX_kkCqOCv7Tp-Kan586fIaKTQET/view?usp=sharing).
+ZKGPS was established on October 24th 2024.The bylaws for ZKGPS can be found [here](https://drive.google.com/file/d/1moP5hrppIzO0RyAsqgNY2J20M_YJA0Be/view?usp=sharing).
 
 ### Engaging with ZKGPS
 

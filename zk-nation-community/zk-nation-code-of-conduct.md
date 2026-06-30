@@ -10,7 +10,7 @@ This is your guide for engaging as part of the ZK Nation community. This Code of
 
 * ZK Nation Docs at [docs.zknation.io](http://docs.zknation.io)
 * ZK Nation Governance Portal at [vote.zknation.io](http://vote.zknation.io)
-* ZK Nation Forum (coming soon)
+* ZK Nation Forum at [forum.zknation.io](https://forum.zknation.io/)
 
 Your continued access and/or engagement is contingent upon following these guidelines.
 

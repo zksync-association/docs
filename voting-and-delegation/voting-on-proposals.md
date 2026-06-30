@@ -6,7 +6,7 @@ Delegates who have been delegated ZK token voting power can vote on ZKsync gover
 
 Delegates can interact with ZKsync contracts through specialized website applications called governance portals. Currently, there are two primary governance portals connected to ZKsync governance contracts:
 
-1. **Cactus:** The ZKsync Tally Governance Portal is owned and managed by the ZKsync Association. You can access the portal at [vote.zknation.io](http://vote.zknation.io). Follow [these steps](https://docs.tally.xyz/user-guides/using-governor-with-gnosis-safe/voting-with-a-gnosis-safe) to vote with a multisig on Cactus.
+1. **Cactus:** The ZKsync Tally Governance Portal is owned and managed by the ZKsync Association. You can access the portal at [vote.zknation.io](http://vote.zknation.io). Follow [these steps](https://docs.tally.xyz/how-to-use-tally/use-tally-as-a-safe-multisig/) to vote with a multisig on Cactus.
 2. **alt.vote.zknation.io:** This interface offers an alternative to the Tally interface. You can access the portal at [alt.vote.zknation.io](http://alt.vote.zknation.io/).&#x20;
 
 ### Voting through the ZKsync Era Block Explorer

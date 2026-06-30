@@ -22,7 +22,7 @@ Delegates should submit a proposal onchain after the idea has been shared widely
 
 You can add the necessary onchain actions on Cactus as part of the onchain proposal. To do so, visit the “Actions” section of the proposal creation flow on Cactus. Then select “Custom action” and upload the necessary Application Binary Interface (ABI) file. The ABI file describes the methods and variables within a smart contract that are accessible and callable by external users or other smart contracts.
 
-You can read more about Cactus’s onchain actions at [docs.tally.xyz](https://docs.tally.xyz/knowledge-base/proposals/creating-proposals)
+You can read more about Cactus’s onchain actions [here](https://docs.tally.xyz/).
 
 <figure><img src="../.gitbook/assets/overview 1.png" alt=""><figcaption></figcaption></figure>
 
