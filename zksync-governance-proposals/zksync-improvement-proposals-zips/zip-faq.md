@@ -22,7 +22,7 @@ The [upgrade handler](https://etherscan.io/address/0xE30Dca3047B37dc7d88849dE4A4
 
 A [Change Type Manager (CTM)](https://docs.zksync.io/zksync-protocol/contracts/l1-contracts/l1-ecosystem-contracts#state-transition-manager-stm) is a critical component designed to handle and coordinate the execution of operations that span between Layer 1 (L1) and Layer 2 (L2). It serves as a factory to deploy ZKsync Chains, and it is responsible for ensuring that all the ZKsync Chains deployed by it are up-to-date. It ensures that all state transitions comply with the ZKsync protocol's rules and guarantees data consistency, and ensures consistency, validity, and synchronization across these layers.
 
-All current ZKsync Chains are deployed to the main ZKsync CTM. However, this may change if/when the Gateway upgrade is executed.
+All current ZKsync Chains are deployed to the main ZKsync CTM.&#x20;
 
 ### What are the different types of state changes that a ZIP can include?
 
