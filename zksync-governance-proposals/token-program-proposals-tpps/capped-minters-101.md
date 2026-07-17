@@ -152,7 +152,35 @@ It is possible to nest “child” capped minters under a “parent” capped mi
 
 <figure><img src="../../.gitbook/assets/Parent_Child diagram.png" alt=""><figcaption></figcaption></figure>
 
-#### **Verify Child Capped Minter has minter role on parent capped minter**
+#### **Grant minter role on deployed capped minters**
+
+**Parent Capped Minters:** As only the admin of a contract can grant the minter role to another address, and the Token Governor Timelock (controlled by Token Assembly) is the admin of the ZK token contract, the minter role from the ZK token contract to any parent capped minter needs to be granted via governance proposal. Please see [Token Program Proposals (TPPs)](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps) to learn more about submitting a TPP. &#x20;
+
+**Child Capped Minters & Mods:** The admin of each capped minter (that is not the Token Timelock) is able to grant the minter role on a capped minter without needing Token Assembly approval (e.g. on child capped minters/minter mods you are the admin of). There is no limit to how many addresses can have the minter role on a given minter contract. It is recommended that all minter roles are assigned in a mechanic before a proposal is submitted onchain for testing purposes and to ensure the smooth launch of a program.&#x20;
+
+Follow these steps in order to grant the minter role on child minters or mods:
+
+**Through Era Block Explorer:**
+
+* Open the contract you want to grant the role from in the [Era block explorer](https://explorer.zksync.io/)
+* Go to “Contract” > “Read”
+* Select “MINTER ROLE” > query, copy the role address
+* Go to “Write” tab > select “grantRole”, paste minter role address into “role” field
+* Copy address you want to grant the role to in the “account” field
+* Select “Write”
+
+**Through Safe:**
+
+* Make sure you are in the Safe account that is the admin of the capped minter you are granting the minter role from.
+* Select “New Transaction” > Custom
+* Enter the address of the Capped minter you are granting the minter role from
+* **ABI:** If the ABI does not automatically show up, go to the capped minter address on the [Era block explorer](https://explorer.zksync.io/), go to “Contract”, scroll down to the bottom to find the “Contract ABI” field, copy & paste into ABI section on Safe
+* **Action:** Section the action you want to execute (e.g. grantRole)
+* **Enter Role Address:** To find the role adddress, open the contract you want to grant the role from in the Era block explorer, go to “Contract” > “Read”, select “MINTER ROLE” > query, copy the role address and paste into Safe
+* **Enter Account Address:** Enter the address you want to grant the role to
+* Follow instructions to propose/sign transaction to execute on the Safe interface.
+
+#### **Verify child capped minter has minter role on parent capped minter**
 
 1. Open the Parent Capped Minter contract on the [Era Block Explorer](https://explorer.zksync.io/)
 2. Go to Contract > Read as Proxy
