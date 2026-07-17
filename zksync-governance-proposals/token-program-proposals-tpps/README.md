@@ -54,6 +54,20 @@ A ZK Token Program Proposal should include all the necessary information for ZKs
 
 > ℹ️ _NOTE: All documentation should be included in the onchain proposal, or include links to an onchain source such as Arweave, IPFS, etc. This allows the proposal content to be public and accessible across web3 applications._
 
+### Calldata Preparation
+
+The design of the mechanic and what address is set as the admin will determine what calldata is needed for the onchain proposal. Below are a few general rules:
+
+1. All parent capped minters in the mechanic need to be granted the minter role from the ZK token contract.
+2. Depending on who the admin is on each capped minters will also impact what calldata is needed:
+   1. Calldata for proposal with multisig as admin on parent:
+      1. Grant minter role from ZK token contract to parent
+   2. Calldata for proposal with Token Governor Timelock as admin on parent:
+      1. Grant minter role from ZK token contract to parent
+      2. Grant minter role from ZK token contract to child 1
+      3. Grant minter role from ZK token contract to child 2
+      4. Grant minter role from ZK token contract to…
+
 ### Token Program Cancellation
 
 A Token Program can be cancelled by the Token Assembly or the Token Program managers.
