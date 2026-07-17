@@ -16,7 +16,7 @@ The current version of the capped minter contract is the [ZKCappedMinterV3](http
 * **Transferable admin:** Unlike the V2, it is possible to transfer the admin role to a different address by the admin, enabling flexible deployment configuration & admin management
 * **Updatable MINTABLE address:** Unlike the V2, the minting source of a program mechanic or capped minter can be updated if original source reaches the minting cap
 * **Start and Expiration Dates:** Adds the ability to arbitrarily set a start and expiration time for a capped minter.
-* **Pause and Cancel Operations:** Allows the admin to pause or fully cancel minting activities, providing a safeguard against unforeseen issues. The admin can also assign other addresses to have the power to pause.
+* **Pause and Close Operations:** Allows the admin to pause or fully cancel minting activities, providing a safeguard against unforeseen issues. The admin can also assign other addresses to have the power to pause.
 * **Metadata:** Allows admin to set a custom metadata URI, allowing each minter to contained additional information related to connected token flows.
 * **Events:** Emits onchain events for granting the minter role, minting, cancelling, setting metadata. New analytics and monitoring are possible.
 
@@ -37,14 +37,22 @@ You can deploy a capped minter through a the [ZKCappedMinterV3 Factory](https://
 
     * **Mintable Token Address (`_mintable`):** The address of the token contract that will be minted from.
     * **Administrator Address (`_admin`):** The address granted administrative privileges, including the ability to assign the MINTER role.
-    * **Minting Cap (`_cap`):** The maximum number of tokens that can be minted by this contract.
-    * **Start Time (`_startTime`):** The seconds timestamp from which minting is permitted.
-    * **Expiration Time (`_expirationTime`):** The seconds timestamp after which minting is no longer allowed. Please note that any child capped minters will expire on the specified end date of a parent capped minter.
+    * **Minting Cap (`_cap`):** The maximum number of tokens that can be minted by this contract. This input is in uint256, meaning it requires 18 decimals. For example, if the cap is meant to be 1,000,000 ZK, it would be entered as 1000000000000000000000000.
+    * **Start Time (`_startTime`):** The seconds timestamp from which minting is permitted. This input is in uint48 (i.e. epoch time). Use an epoch time converter to get the correct input for the start time desired. Please note that the start time has to be some time in the future from the moment of deployment.&#x20;
+    * **Expiration Time (`_expirationTime`):** The seconds timestamp after which minting is no longer allowed. This input is in uint48 (i.e. epoch time). Use an epoch time converter to get the correct input for the end time desired. Please note that any child capped minters will expire on the specified end date of a parent capped minter.&#x20;
     * **saltNonce:** arbitrary value that helps define the deployed contract’s address.
 
     > Please note that these parameters cannot be updated after the contract has been deployed.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-03-09 at 16.01.41.png" alt=""><figcaption></figcaption></figure>
+
+**Where to find capped minter address after deployed:** After the transaction has been signed to create the capped minter, a hash should appear under the deploy button. Take note of the hash and go to the "Events" tab
+
+### Common Role Address
+
+There are two common roles that are assigned in standard token mechanics. These addresses can also be found directly in the contract functions of each minter contract. See [Reading a Capped Minter Contract](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101#reading-a-capped-minter-contract) section below.
+
+<table><thead><tr><th width="118">Role</th><th width="336">Role Address</th><th>Role Action</th></tr></thead><tbody><tr><td>Minter Role</td><td>0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6</td><td>Addresses granted this role will be able to mint from a given minter contract.</td></tr><tr><td>Pauser Role</td><td>0x65d7a28e3265b37a6474929f336521b332c1681b933f6cb9f3376673440d862a</td><td>Addresses with this role will be able to pause minting from a given minter contract. <br><br>This role is commonly assigned to the ZKsync Security Council for extra oversight on Token Programs.</td></tr></tbody></table>
 
 ### Verifying a Capped Minter
 
