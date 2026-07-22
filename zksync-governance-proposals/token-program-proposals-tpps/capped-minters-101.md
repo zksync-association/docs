@@ -48,12 +48,6 @@ You can deploy a capped minter through a the [ZKCappedMinterV3 Factory](https://
 
 **Where to find capped minter address after deployed:** After the transaction has been signed to create the capped minter, a hash should appear under the deploy button. Take note of the hash and go to the "Events" tab
 
-### Common Role Address
-
-There are two common roles that are assigned in standard token mechanics. These addresses can also be found directly in the contract functions of each minter contract. See [Reading a Capped Minter Contract](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101#reading-a-capped-minter-contract) section below.
-
-<table><thead><tr><th width="118">Role</th><th width="336">Role Address</th><th>Role Action</th></tr></thead><tbody><tr><td>Minter Role</td><td>0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6</td><td>Addresses granted this role will be able to mint from a given minter contract.</td></tr><tr><td>Pauser Role</td><td>0x65d7a28e3265b37a6474929f336521b332c1681b933f6cb9f3376673440d862a</td><td>Addresses with this role will be able to pause minting from a given minter contract. <br><br>This role is commonly assigned to the ZKsync Security Council for extra oversight on Token Programs.</td></tr></tbody></table>
-
 ### Verifying a Capped Minter
 
 #### **Verifying in Command Line**
@@ -135,23 +129,6 @@ In order to read the parameters of an already deployed capped minter contract, s
 13. paused: Query this parameter to see if the capped minter contract has been pause (true = paused, false = not paused)
 14. supportsinterface: Query this parameter by adding an interface ID to check if an interface is supported with the contract
 
-### Confirming the Minter Role on a Capped Minter
-
-Minting rights are represented by the minter role. The minter role is granted and revoked by passing a Token Program Proposal (TPP). To verify if a capped minter has the minter role or not, following the steps below.
-
-**Verify Parent Capped Minter has minter role on ZK token contract**
-
-1. Open the [ZK token contract](https://sepolia.explorer.zksync.io/address/0x06eb75609e3c8daebe26e479e7232edeb25bc1c2#contract) on the Era Block Explorer
-2. Go to Contract > Read
-3. Toggle down the hasRole parameter
-4. Enter the MINTER\_ROLE address (query from above)
-5. Enter address of the capped minter
-6. Select “Query”
-
-If the query returns true, the capped minter has the minter role on the ZK token contract and is able to mint up to it’s specified cap. If it returns false, it means the capped minter does not have the minter role, and no tokens can be minted from that capped minter.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2025-08-29 at 16.57.44.png" alt=""><figcaption></figcaption></figure>
-
 _Example from the_ [_TPP-6_](https://vote.zknation.io/dao/proposal/38542076628472360665761284306860773162167153028104855759973536253827423667325?govId=eip155:324:0xb83FF6501214ddF40C91C9565d095400f3F45746) _capped minter._
 
 ### Nested Capped Minters (Parent / Child)
@@ -188,7 +165,28 @@ Follow these steps in order to grant the minter role on child minters or mods:
 * **Enter Account Address:** Enter the address you want to grant the role to
 * Follow instructions to propose/sign transaction to execute on the Safe interface.
 
-#### **Verify child capped minter has minter role on parent capped minter**
+### Common Role Addresses
+
+There are two common roles that are assigned in standard token mechanics. These addresses can also be found directly in the contract functions of each minter contract. See [Reading a Capped Minter Contract](https://docs.zknation.io/zksync-governance-proposals/token-program-proposals-tpps/capped-minters-101#reading-a-capped-minter-contract) section below.
+
+<table><thead><tr><th width="118">Role</th><th width="336">Role Address</th><th>Role Action</th></tr></thead><tbody><tr><td>Minter Role</td><td>0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6</td><td>Addresses granted this role will be able to mint from a given minter contract.</td></tr><tr><td>Pauser Role</td><td>0x65d7a28e3265b37a6474929f336521b332c1681b933f6cb9f3376673440d862a</td><td>Addresses with this role will be able to pause minting from a given minter contract. <br><br>This role is commonly assigned to the ZKsync Security Council for extra oversight on Token Programs.</td></tr></tbody></table>
+
+### Confirming the Minter Role on a Capped Minter
+
+Minting rights are represented by the minter role. The minter role is granted and revoked by passing a Token Program Proposal (TPP). To verify if a capped minter has the minter role or not, following the steps below.
+
+**Verify Parent Capped Minter has minter role on ZK token contract**
+
+1. Open the [ZK token contract](https://sepolia.explorer.zksync.io/address/0x06eb75609e3c8daebe26e479e7232edeb25bc1c2#contract) on the Era Block Explorer
+2. Go to Contract > Read
+3. Toggle down the hasRole parameter
+4. Enter the MINTER\_ROLE address (query from above)
+5. Enter address of the capped minter
+6. Select “Query”
+
+If the query returns true, the capped minter has the minter role on the ZK token contract and is able to mint up to it’s specified cap. If it returns false, it means the capped minter does not have the minter role, and no tokens can be minted from that capped minter.
+
+**Verify child capped minter or minter mod has minter role on parent capped minter**
 
 1. Open the Parent Capped Minter contract on the [Era Block Explorer](https://explorer.zksync.io/)
 2. Go to Contract > Read as Proxy
@@ -198,6 +196,8 @@ Follow these steps in order to grant the minter role on child minters or mods:
 6. Select “Query”
 
 If the query returns true, the child capped minter has the minter role on the parent capped minter and is able to mint up to it’s specified cap. If it returns false, it means the child capped minter does not have the minter role, and no tokens can be minted from that capped minter.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-08-29 at 16.57.44.png" alt=""><figcaption></figcaption></figure>
 
 ### Minting from a Capped Minter
 
